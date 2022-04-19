@@ -9,7 +9,6 @@ const router = require("express").Router();
 
 //CREATE
 
-
 exports.createProd = async (req, res) => {
   const newProduct = new Product(req.body);
 
@@ -22,7 +21,6 @@ exports.createProd = async (req, res) => {
 }
 
 //UPDATE
-
 
 exports.updateProd = async (req, res) => {
   try {
